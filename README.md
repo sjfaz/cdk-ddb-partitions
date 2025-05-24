@@ -1,4 +1,4 @@
-# DynamoDB Partition Observation with Warm Throughput
+# DynamoDB Partition Observation
 
 This repo explores DynamoDB partition behavior using:
 
