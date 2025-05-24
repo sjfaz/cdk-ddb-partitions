@@ -37,12 +37,12 @@ Runs 100 parallel writes using distinct `pkX` and `skX` values.
 node utils/load-test.js
 ```
 
-### 3. `load-test.js`
+### 3. `stream-reader.js`
 
 Check which active shards handled the inserts, observe it spread across partitions.
 
 ```bash
-node utils/load-test.js
+node utils/stream-reader.js
 ```
 
-Note: if you run a load test with low cardinality pk then the traffic will not spread well.
+Note: if the load-test had a low cardinality pk then the traffic would not spread well.
