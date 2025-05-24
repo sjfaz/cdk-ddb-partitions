@@ -23,7 +23,7 @@ The table is configured with:
 
 ### 1. `partitions.js`
 
-Check the number of active shards, our proxy for partitions given the 1:1 mapping
+Check the number of active shards, a proxy for partitions given the 1:1 mapping
 
 ```bash
 node utils/partitions.js
